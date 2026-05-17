@@ -1,0 +1,2 @@
+member_id,instrument_role,target_note,target_hz,acoustic_law,end_condition,reed_source_role,dimension_provenance,predicted_L_geom_mm,bore_id_mm,tonehole_layout_mm,dimension_status,unknown_requires_measurement,notes
+CLN-V5-STUDY-001,simple_clarinet_study,TBD,TBD,closed_open,one_end_closed_reed,single_reed_mouthpiece_controls_closed_end,measurement_required,,,,"starter_only",yes,"Cylindrical single-reed woodwind planning row; bore length and tone holes require measurement before CAD or DXF authority."
