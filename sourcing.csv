@@ -1,0 +1,7 @@
+source_id,item_id,source_status,required_for,measurement_dependency,decision_gate,notes
+SRC-001,BOM-001,to_source,bore_and_body_study,bore_id_mm,L2_sourceability_review,"Do not buy final stock until the bore measurement and tooling range are known."
+SRC-002,BOM-002,to_source,reed_boundary_condition,mouthpiece_facing,L2_setup_review,"Mouthpiece model and facing become setup metadata for every pitch test."
+SRC-003,BOM-003,to_source,response_and_pitch,reed_strength,L2_setup_review,"Reed brand cut and strength must be logged per validation row."
+SRC-004,BOM-004,to_source,leak_check,leak_status,L2_integrity_review,"Seal material choice must match temporary test closure method."
+SRC-005,BOM-005,to_source,validation_loop,all_measurements,L2_measurement_readiness,"Measurement tools are prerequisites for moving beyond concept."
+SRC-006,BOM-006,available,reference_only,none,reference_only,"Existing screenshot remains inspiration only."

@@ -1,0 +1,9 @@
+gate_id,gate,required_for,status,evidence_path,notes
+V5-001,approved_readiness_status,L1 concept packet,pass,README.md,"README uses the approved V5 L1 status line."
+V5-002,acoustic_law_declared,L1 concept packet,pass,family-spec.csv,"family-spec.csv declares closed_open behavior and single-reed closed-end control."
+V5-003,fabrication_authority_separated,L1 concept packet,pass,visual-output-register.csv,"Reference image is reference_only; no fabrication authority is claimed."
+V5-004,baseline_packet_surface,L1 concept packet,pass,README.md,"V5 baseline files are present as starter or blocker records."
+V5-005,mcp_provenance_starter,L1 concept packet,pass,cad/mcp-session-log.md,"Starter log records that no external MCP/CAD/image tool output exists yet."
+V5-006,wolfram_source_boundary,L1 concept packet,pass,wolfram-starter.wl,"Source-only starter exists; no runtime execution is claimed."
+V5-007,measured_geometry,L2/L3 promotion,blocked,validation-loop.csv,"Bore, tone holes, mouthpiece setup, leaks, pitch, and response remain unmeasured."
+V5-008,cad_dxf_authority,L2/L3 promotion,blocked,cad-dxf-authority-plan.md,"CAD/DXF is planned but not yet authoritative."
