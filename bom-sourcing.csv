@@ -1,0 +1,7 @@
+item_id,category,item,source_status,required_for,measurement_dependency,notes
+BOM-001,body_stock,cylindrical clarinet body blank or tube,to_source,bore_and_body_study,bore_id_mm,"Choose stock only after target bore ID and tooling limits are measured."
+BOM-002,mouthpiece,single-reed clarinet mouthpiece,to_source,reed_boundary_condition,mouthpiece_facing,"Record maker model facing and table condition before pitch tests."
+BOM-003,reed,single clarinet reeds in known strengths,to_source,response_and_pitch,reed_strength,"Test more than one strength and record strength in validation-loop.csv."
+BOM-004,sealing,cork pads tape or temporary leak seals,to_source,leak_check,leak_status,"Temporary closures are acceptable for first measurements but are not final keywork."
+BOM-005,measurement_tools,calipers bore gauges tuner and leak light,to_source,validation_loop,all_measurements,"Measurement tools are required before any fabrication authority is claimed."
+BOM-006,visual_reference,existing BOM inspiration screenshot,available,reference_only,none,"images/Screenshot -bill-of-materials-inspiration.png is reference-only and has no dimensional authority."
