@@ -1,0 +1,7 @@
+station_id,datum_id,feature,station_from_datum_mm,measurement_method,unit,repeat_count,required_evidence,status,authority_gate,notes
+BORE-000,DAT-001,mouthpiece_exit_or_tenon_interface,TBD,bore_gauge_or_caliper_with_setup_photo,mm,3,TBD,planned,CADG-001,"Record ID, fit reference, and insertion or shoulder datum before mouthpiece interface CAD."
+BORE-010,DAT-002,upper_body_intake,TBD,bore_gauge_or_caliper,mm,3,TBD,planned,CADG-002,"Record ID, ovality, and material condition before stock selection is final."
+BORE-020,DAT-003,first_upper_body_station,TBD,bore_gauge,mm,3,TBD,planned,CADG-002,"Required before tone-hole correction modeling."
+BORE-030,DAT-003,middle_body_station,TBD,bore_gauge,mm,3,TBD,planned,CADG-002,"Required before body layout DXF."
+BORE-040,DAT-003,lower_body_station,TBD,bore_gauge,mm,3,TBD,planned,CADG-002,"Required before body layout DXF."
+BORE-050,DAT-005,bell_or_outlet_reference,TBD,bore_gauge_or_template,mm,3,TBD,planned,CADG-002,"Record outlet geometry and open-end reference before effective-length checks."

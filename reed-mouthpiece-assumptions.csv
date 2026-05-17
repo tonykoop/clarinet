@@ -1,0 +1,4 @@
+setup_id,mouthpiece_model,mouthpiece_facing,reed_brand,reed_cut,reed_strength,insertion_or_fit_reference,setup_role,status,required_evidence,notes
+SETUP-001,TBD,TBD,TBD,TBD,TBD,TBD,baseline_pitch_response_setup,planned,TBD,"Required before pitch and response evidence can be compared."
+SETUP-002,same_as_SETUP-001_unless_changed,same_as_SETUP-001_unless_changed,TBD,TBD,TBD,TBD,alternate_reed_strength_response_pass,planned,TBD,"Use to separate reed response from geometry changes."
+SETUP-003,TBD,TBD,TBD,TBD,TBD,TBD,alternate_mouthpiece_sensitivity_pass,optional_planned,TBD,"Use only if first setup fails onset or stable pitch checks."

@@ -1,0 +1,9 @@
+hole_id,datum_id,planned_role,center_from_datum_mm,angular_orientation_deg,diameter_mm,chimney_height_mm,undercut_note,closure_state,required_evidence,status,authority_gate,notes
+TH-REG,DAT-004,register_vent_candidate,TBD,TBD,TBD,TBD,TBD,normally_closed_or_test_plug,TBD,planned,CADG-003,"No drilling until center, diameter, chimney, undercut, and closure evidence are reviewed."
+TH-LH1,DAT-004,left_hand_first_finger_candidate,TBD,TBD,TBD,TBD,TBD,open_closed_test_state_required,TBD,planned,CADG-003,"No image-derived tone-hole position is allowed."
+TH-LH2,DAT-004,left_hand_second_finger_candidate,TBD,TBD,TBD,TBD,TBD,open_closed_test_state_required,TBD,planned,CADG-003,"No image-derived tone-hole position is allowed."
+TH-LH3,DAT-004,left_hand_third_finger_candidate,TBD,TBD,TBD,TBD,TBD,open_closed_test_state_required,TBD,planned,CADG-003,"No image-derived tone-hole position is allowed."
+TH-RH1,DAT-004,right_hand_first_finger_candidate,TBD,TBD,TBD,TBD,TBD,open_closed_test_state_required,TBD,planned,CADG-003,"No image-derived tone-hole position is allowed."
+TH-RH2,DAT-004,right_hand_second_finger_candidate,TBD,TBD,TBD,TBD,TBD,open_closed_test_state_required,TBD,planned,CADG-003,"No image-derived tone-hole position is allowed."
+TH-RH3,DAT-004,right_hand_third_finger_candidate,TBD,TBD,TBD,TBD,TBD,open_closed_test_state_required,TBD,planned,CADG-003,"No image-derived tone-hole position is allowed."
+TH-BELL,DAT-005,bell_or_open_end_reference,TBD,TBD,TBD,TBD,TBD,open_reference,TBD,planned,CADG-003,"Needed to interpret effective acoustic length."
