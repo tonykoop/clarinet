@@ -1,0 +1,7 @@
+gate_id,gate,required_evidence,current_status,evidence_path,fabrication_effect,notes
+CADG-001,shared_datum_review,"DAT-001 through DAT-005 recorded",blocked,TBD,"No CAD station table can become authoritative.","Establish one datum chain for setup, body, bore, tone holes, and bell/open end."
+CADG-002,bore_station_review,"bore-station-plan.csv completed with evidence paths",blocked,bore-station-plan.csv,"No bore or body-stock CAD/DXF authority.","Station rows must include tool and repeatability evidence."
+CADG-003,tone_hole_table_review,"tone-hole-authority-plan.csv completed with evidence paths",blocked,tone-hole-authority-plan.csv,"No drilling coordinates or tone-hole DXF authority.","Tone-hole rows require center, orientation, diameter, chimney, undercut, and closure evidence."
+CADG-004,setup_and_validation_review,"reed/mouthpiece, leak, pitch, and response rows completed",blocked,"reed-mouthpiece-assumptions.csv; leak-pitch-validation-plan.csv","No tuning iteration can be attributed to geometry.","Pitch rows without same-setup leak checks are not authority evidence."
+CADG-005,reviewed_design_table,"Measured rows copied into a reviewed design table",blocked,TBD,"CAD/DXF generation may start after review.","Design table must cite source rows, not images or prose."
+CADG-006,visual_authority_register_update,"Governing CAD/DXF/design table recorded with authority=fabrication",blocked,visual-output-register.csv,"Fabrication remains blocked until this is complete.","SVG/PDF/PNG previews remain derived or reference-only."

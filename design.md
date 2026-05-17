@@ -51,6 +51,9 @@ maps.
 The next useful milestone is a measured L2 shop-packet candidate with:
 
 - A completed `validation-loop.csv` row set.
+- Completed `bore-station-plan.csv`, `tone-hole-authority-plan.csv`,
+  `reed-mouthpiece-assumptions.csv`, and `leak-pitch-validation-plan.csv`
+  evidence paths.
 - A reviewed CAD/DXF register naming the artifacts that control fabrication.
 - A pitch and response table tied to reed strength, mouthpiece, bore ID, and
   environmental conditions.
