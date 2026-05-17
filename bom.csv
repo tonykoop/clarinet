@@ -1,0 +1,7 @@
+item_id,subsystem,item,quantity,status,authority,notes
+BOM-001,body,cylindrical clarinet body blank or tube,TBD,planned,pending_measurement,"Select only after target bore ID tooling and material stability are measured."
+BOM-002,mouthpiece,single-reed clarinet mouthpiece,1,planned,pending_measurement,"Record model facing table condition and reed compatibility before pitch tests."
+BOM-003,reed,single clarinet reeds in known strengths,TBD,planned,pending_measurement,"Use multiple strengths during response tests and record each setup."
+BOM-004,sealing,cork pads tape or temporary leak seals,TBD,planned,pending_measurement,"Temporary test closures are allowed for measurement loops only."
+BOM-005,measurement_tools,calipers bore gauges tuner leak light,TBD,planned,reference_only,"Required to collect evidence; not fabrication geometry."
+BOM-006,reference_image,BOM inspiration screenshot,1,available,reference_only,"images/Screenshot -bill-of-materials-inspiration.png is non-dimensional reference context."

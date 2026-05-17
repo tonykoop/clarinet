@@ -1,0 +1,6 @@
+cut_id,part,operation,material_source,dimension_source,status,authority,blocker
+CUT-001,body_tube,cut_to_length,BOM-001,TBD,blocked,pending_measurement,"No effective acoustic length or body datum has been measured."
+CUT-002,bore,ream_or_select_bore,BOM-001,TBD,blocked,pending_measurement,"No measured bore ID or tolerance stack exists."
+CUT-003,tone_holes,drill_or_machine_holes,BOM-001,TBD,blocked,pending_measurement,"No reviewed tone-hole center/diameter/chimney table exists."
+CUT-004,mouthpiece_interface,fit_or_adapt_mouthpiece,BOM-002,TBD,blocked,pending_measurement,"No mouthpiece tenon or facing compatibility data exists."
+CUT-005,keywork_or_test_closures,install_closures,BOM-004,TBD,blocked,pending_measurement,"No closure layout or leak-tested keywork plan exists."
