@@ -1,9 +1,9 @@
 measurement_id,phase,metric,method,unit,target_or_acceptance,evidence_path,status,notes
 MEAS-001,intake,bore_id,measure internal diameter at multiple body stations,mm,record measured values with tool and station labels,TBD,planned,"Required before bore CAD or tube sourcing can become authoritative."
 MEAS-002,intake,tone_hole_positions,measure or design center positions from a reviewed template,mm,record center from mouthpiece datum and hole diameter,TBD,planned,"Do not infer tone-hole map from images."
-MEAS-003,intake,reed_strength,record reed brand cut and strength,label,record exact reed used for each pitch and response pass,TBD,planned,"Reed setup controls the closed-end boundary condition."
+MEAS-003,intake,reed_strength,record reed brand cut and strength,label,record exact reed used for each pitch and response pass,reed-mouthpiece-leak-capture-session.csv,planned,"Reed setup controls the closed-end boundary condition."
 MEAS-004,pitch,pitch_table,tuner pass with room temperature and fingering notes,cents,record target note observed note cents and stability,TBD,planned,"Attach evidence as CSV or log before tuning changes."
-MEAS-005,integrity,leak_check,light suction or pressure check by joint and closure,pass_fail,all test closures pass before pitch table,TBD,planned,"Leak status must be tied to the same setup as the pitch table."
+MEAS-005,integrity,leak_check,light suction or pressure check by joint and closure,pass_fail,all test closures pass before pitch table,reed-mouthpiece-leak-capture-session.csv,planned,"Leak status must be tied to the same setup as the pitch table."
 MEAS-006,response,response_notes,player notes for onset register behavior and squeak risk,text,record stable unstable and failed notes,TBD,planned,"Response notes decide whether geometry is ready for CAD iteration."
 MEAS-007,intake,bore_station_table,complete bore-station-plan.csv with evidence paths,rows,all required stations have measured values repeat counts and tool notes,TBD,planned,"Required before bore or body-stock CAD/DXF authority."
 MEAS-008,intake,tone_hole_authority_table,complete tone-hole-authority-plan.csv with evidence paths,rows,each tone-hole row has center diameter chimney closure orientation and evidence,TBD,planned,"Required before drilling coordinates or tone-hole DXF authority."

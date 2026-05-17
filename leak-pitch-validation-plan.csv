@@ -1,6 +1,6 @@
 validation_id,phase,test,setup_dependency,required_before,pass_condition,evidence_path,status,notes
-LPV-001,setup,record_reed_mouthpiece_setup,reed-mouthpiece-assumptions.csv,pitch_pass,"Setup fields complete and tied to setup_id.",TBD,planned,"Every pitch or response row must cite the exact setup."
-LPV-002,integrity,joint_and_closure_leak_check,LPV-001,pitch_table,"No observed joint or temporary-closure leak under selected method.",TBD,planned,"Leak evidence must match the physical setup used for pitch checks."
+LPV-001,setup,record_reed_mouthpiece_setup,reed-mouthpiece-assumptions.csv,pitch_pass,"Setup fields complete and tied to setup_id.",reed-mouthpiece-leak-capture-session.csv,planned,"Every pitch or response row must cite the exact setup."
+LPV-002,integrity,joint_and_closure_leak_check,LPV-001,pitch_table,"No observed joint or temporary-closure leak under selected method.",reed-mouthpiece-leak-capture-session.csv,planned,"Leak evidence must match the physical setup used for pitch checks."
 LPV-003,pitch,stable_fingering_pitch_table,LPV-001_and_LPV-002,cad_iteration,"Target note, observed frequency, cents error, room conditions, and setup_id recorded.",TBD,planned,"Pitch evidence without leak and setup records is not promotion evidence."
 LPV-004,response,onset_and_squeak_risk_notes,LPV-001_and_LPV-002,cad_iteration,"Stable, unstable, or failed response state recorded per fingering.",TBD,planned,"Response notes decide whether geometry is ready for CAD iteration."
 LPV-005,correction,geometry_change_log,LPV-003_and_LPV-004,second_cad_dxf_pass,"Each proposed change cites bore, tone-hole, pitch, and leak rows.",TBD,planned,"No correction loop should cite generated images as dimensional evidence."

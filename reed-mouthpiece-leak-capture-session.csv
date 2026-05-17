@@ -1,0 +1,2 @@
+session_id,date,setup_id,session_role,body_serial,mouthpiece_id,mouthpiece_make_model,mouthpiece_facing,reed_id,reed_make_model,reed_brand,reed_cut,reed_strength,reed_condition,ligature,tenon_reference,seal_method,leak_test_method,leak_test_pressure_inh2o,leak_check_result,room_temp_c,room_humidity_pct,notes
+CLN-A2-S01,TBD,SETUP-001,baseline_pitch_response,CLN-BODY-PLANNING-001,MP-001,TBD,TBD,REED-001,TBD,TBD,TBD,TBD,TBD,clip,tenon_reference_unknown,paper_tape,air_pressure_hold_and_soap,TBD,TBD,TBD,TBD,placeholder_row_for_same_session_reed_mouthpiece_leak_capture
