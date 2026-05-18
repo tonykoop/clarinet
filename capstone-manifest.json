@@ -1,0 +1,89 @@
+{
+  "packet": "clarinet",
+  "mode": "root",
+  "title": "Clarinet Bare-Bones Starter Packet",
+  "instrument": "Clarinet",
+  "build_target": "Simple cylindrical single-reed clarinet study",
+  "artifact_focus": "L1 starter packet for acoustic-law declaration, measurement intake, authority gates, and later CAD/DXF promotion.",
+  "family_members": [
+    "single-reed woodwind",
+    "closed-open cylindrical bore study",
+    "clarinet-family measurement scaffold"
+  ],
+  "release_status": "private review",
+  "packet_version": "L1 bare-bones starter packet; round 3",
+  "readiness": "L1 concept packet",
+  "files_included": [
+    "README.md",
+    "design.md",
+    "family-spec.csv",
+    "bom.csv",
+    "sourcing.csv",
+    "bom-sourcing.csv",
+    "cut-list.csv",
+    "validation.csv",
+    "validation-loop.csv",
+    "measured-bore-tonehole-authority-plan.md",
+    "bore-station-plan.csv",
+    "tone-hole-authority-plan.csv",
+    "reed-mouthpiece-assumptions.csv",
+    "leak-pitch-validation-plan.csv",
+    "cad-dxf-authority-plan.md",
+    "cad-dxf-authority-gates.csv",
+    "cad/mcp-session-log.md",
+    "drawing-brief.md",
+    "visual-output-register.csv",
+    "risks.md",
+    "photo-shotlist.md",
+    "wolfram-exploration.md",
+    "wolfram-starter.wl",
+    "explorer.html"
+  ],
+  "release_gate": {
+    "public_candidate": false,
+    "required_before_public": [
+      "Measured bore ID, station datum, and tolerance evidence are required before body geometry can become authoritative.",
+      "Measured or reviewed tone-hole center, diameter, chimney, undercut, and closure rows are required before any drilling layout or DXF authority.",
+      "Reed and mouthpiece setup records, leak checks, pitch table, and response notes are required before acoustic iteration claims.",
+      "Reviewed CAD/DXF/design-table authority must be recorded in visual-output-register.csv before fabrication claims.",
+      "Wolfram output remains source-only analysis support until run results cite measured inputs and are reviewed.",
+      "The existing image is reference-only and must not be used as dimensional evidence."
+    ]
+  },
+  "engineering": {
+    "wolfram": [
+      {
+        "source_file": "wolfram-starter.wl",
+        "cloud_path": "wolfram-starter.wl",
+        "cloud_url": "",
+        "kind": "local-wl",
+        "permission": "local"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Design basis",
+      "credit": "L1 single-reed closed-open acoustic-law declaration and authority boundary.",
+      "url": "design.md"
+    },
+    {
+      "title": "Measurement authority plan",
+      "credit": "Bore, tone-hole, reed/mouthpiece, leak, pitch, and CAD/DXF evidence gates.",
+      "url": "measured-bore-tonehole-authority-plan.md"
+    },
+    {
+      "title": "Visual authority register",
+      "credit": "Reference image is recorded as non-dimensional and reference-only.",
+      "url": "visual-output-register.csv"
+    }
+  ],
+  "outputs": {
+    "studio_explorer": "explorer.html"
+  },
+  "notes": [
+    "This manifest indexes the current L1 packet and does not promote the repo to L2 or build-ready status.",
+    "All dimensions remain TBD, assumption, or requires measurement until measured templates, reviewed design tables, CAD, or DXF artifacts are added.",
+    "No measured prototype data, runtime Wolfram validation, reviewed CAD/DXF, or physical validation evidence exists yet."
+  ]
+}
