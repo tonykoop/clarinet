@@ -13,6 +13,8 @@ are claimed.
 | File | Purpose | Readiness |
 | --- | --- | --- |
 | [design.md](design.md) | Clarinet study intent, observed/reference assumptions, and fabrication authority boundary | L1 starter |
+| [capstone-manifest.json](capstone-manifest.json) | Root packet manifest, release gates, and explorer metadata | L1 starter |
+| [explorer.html](explorer.html) | Studio explorer for reviewing the starter packet, gates, local Wolfram source, and evidence gaps | L1 starter |
 | [family-spec.csv](family-spec.csv) | Explicit acoustic-law row for a cylindrical single-reed woodwind | L1 starter |
 | [bom.csv](bom.csv) | V5 baseline bill-of-materials planning rows | L1 starter |
 | [sourcing.csv](sourcing.csv) | Source and measurement dependency status for planned materials and tools | L1 starter |
