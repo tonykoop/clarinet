@@ -27,6 +27,8 @@ are claimed.
 | [tone-hole-authority-plan.csv](tone-hole-authority-plan.csv) | Machine-readable planned tone-hole center, diameter, chimney, closure, and evidence rows | L1 authority plan |
 | [reed-mouthpiece-assumptions.csv](reed-mouthpiece-assumptions.csv) | Setup records required before pitch/response evidence can be compared | L1 authority plan |
 | [leak-pitch-validation-plan.csv](leak-pitch-validation-plan.csv) | Leak, pitch, response, and correction evidence gates tied to setup records | L1 authority plan |
+| [reed-mouthpiece-leak-capture-plan.md](reed-mouthpiece-leak-capture-plan.md) | Same-session evidence plan that links reed, mouthpiece, and leak checks | L2 prep |
+| [reed-mouthpiece-leak-capture-session.csv](reed-mouthpiece-leak-capture-session.csv) | Same-session setup + leak capture template for Round 23 A2 | L2 prep |
 | [cad-dxf-authority-gates.csv](cad-dxf-authority-gates.csv) | CAD/DXF authority gates blocking fabrication until measured/reviewed evidence exists | L1 authority plan |
 | [risks.md](risks.md) | Build, tuning, sourceability, and authority risks blocking L2/L3 promotion | L1 starter |
 | [drawing-brief.md](drawing-brief.md) | Drawing and CAD/DXF brief for a future measured clarinet layout | L1 starter |

@@ -8,4 +8,4 @@ V5-006,wolfram_source_boundary,L1 concept packet,pass,wolfram-starter.wl,"Source
 V5-007,measured_geometry,L2/L3 promotion,blocked,"validation-loop.csv; bore-station-plan.csv; tone-hole-authority-plan.csv","Bore, tone holes, mouthpiece setup, leaks, pitch, and response remain unmeasured."
 V5-008,cad_dxf_authority,L2/L3 promotion,blocked,"cad-dxf-authority-plan.md; cad-dxf-authority-gates.csv","CAD/DXF is planned but not yet authoritative."
 V5-009,b0_measured_bore_tonehole_plan,L1 authority plan,pass,measured-bore-tonehole-authority-plan.md,"B0 added explicit planned tables and gates without claiming measured dimensions."
-V5-010,reed_mouthpiece_validation_chain,L2/L3 promotion,blocked,"reed-mouthpiece-assumptions.csv; leak-pitch-validation-plan.csv","Pitch and response evidence still need a setup-tied leak/pitch validation pass."
+V5-010,reed_mouthpiece_validation_chain,L2/L3 promotion,blocked,"reed-mouthpiece-assumptions.csv; leak-pitch-validation-plan.csv; reed-mouthpiece-leak-capture-session.csv","Pitch and response evidence still need a setup-tied leak/pitch validation pass. A2 now adds the same-session capture packet."

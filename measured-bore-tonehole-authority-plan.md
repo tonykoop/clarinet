@@ -91,6 +91,12 @@ Pitch evidence without a current leak check and setup record is invalid for
 promotion. Leak evidence must be collected on the same physical setup used for
 the pitch and response rows.
 
+For this lane, that same-session linkage is implemented in the dedicated
+reed/mouthpiece/leak capture packet:
+`reed-mouthpiece-leak-capture-session.csv`. Every row in that packet must use one
+`session_id`, and setup and leak rows sharing that `session_id` are treated as a
+single bounded evidence bundle for planning status updates.
+
 ## CAD/DXF Authority Gates
 
 The governing machine-readable table is `cad-dxf-authority-gates.csv`.

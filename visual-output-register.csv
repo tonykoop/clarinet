@@ -1,2 +1,3 @@
 artifact_id,path,artifact_kind,role,authority,derived_from,dimension_claim,notes
 REF-001,"images/Screenshot -bill-of-materials-inspiration.png",photo_reference,photo_reference,reference_only,,none,"Existing image is BOM inspiration only and is not dimensional evidence."
+CAP-001,reed-mouthpiece-leak-capture-session.csv,measurement_capture,validation_capture,reference_only,reed-mouthpiece-leak-capture-plan.md,none,"Round 23 A2 same-session intake template for reed, mouthpiece, and leak checks."
