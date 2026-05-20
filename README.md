@@ -20,6 +20,7 @@ are claimed.
 | [sourcing.csv](sourcing.csv) | Source and measurement dependency status for planned materials and tools | L1 starter |
 | [bom-sourcing.csv](bom-sourcing.csv) | Minimal first-pass material and sourcing checklist | L1 starter |
 | [cut-list.csv](cut-list.csv) | Explicit no-cut-yet fabrication gate for body, tone holes, mouthpiece, and keywork | L1 starter |
+| [keywork-scope.md](keywork-scope.md) | Keyless-first-prototype stance, out-of-scope keyed-mechanism register, and gated re-entry conditions | L1 starter |
 | [validation.csv](validation.csv) | V5 migration gate status and blockers | L1 starter |
 | [validation-loop.csv](validation-loop.csv) | First measurement loop for bore, tone holes, reed setup, pitch, leaks, and response | L1 starter |
 | [measured-bore-tonehole-authority-plan.md](measured-bore-tonehole-authority-plan.md) | B0 evidence plan for bore stations, tone holes, reed/mouthpiece setup, leak/pitch validation, and CAD/DXF authority gates | L1 authority plan |
