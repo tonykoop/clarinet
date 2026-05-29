@@ -1,3 +1,4 @@
 artifact_id,path,artifact_kind,role,authority,derived_from,dimension_claim,notes
 REF-001,"images/Screenshot -bill-of-materials-inspiration.png",photo_reference,photo_reference,reference_only,,none,"Existing image is BOM inspiration only and is not dimensional evidence."
 CAP-001,reed-mouthpiece-leak-capture-session.csv,measurement_capture,validation_capture,reference_only,reed-mouthpiece-leak-capture-plan.md,none,"Round 23 A2 same-session intake template for reed, mouthpiece, and leak checks."
+CAD-001,cad/clarinet.scad,openscad_starter,cad_scaffold,pending_measurement,family-spec.csv CLN-V5-STUDY-001,none,"Starter parametric scaffold with measurement-required placeholder dimensions. NOT fabrication authority. Promote to fabrication only after bore-station-plan.csv and tone-hole-authority-plan.csv are completed and reviewed."

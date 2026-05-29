@@ -1,12 +1,13 @@
 # Clarinet Starter Packet
 
-Status: L1 concept packet
+Status: L2 V5 build-packet candidate
 
-This repository is an L1 starter packet for a simple cylindrical
-single-reed clarinet study. It is not a build-ready shop packet. The current
-files define the packet index, acoustic-law assumptions, measurement plan,
-and authority boundaries needed before any CAD, DXF, or fabrication dimensions
-are claimed.
+This repository is an L2 V5 build-packet candidate for a simple cylindrical
+single-reed clarinet study. It is not a build-ready shop packet. The V5 surface
+is present (starter OpenSCAD scaffold, mcp-session-log, visual-output-register,
+measurement authority plan), but all critical dimensions remain
+`pending_measurement` and fabrication authority is blocked until bore stations,
+tone-hole positions, and mouthpiece geometry are measured and reviewed.
 
 ## Packet Index
 
