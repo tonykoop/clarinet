@@ -36,7 +36,7 @@
     "risks.md",
     "photo-shotlist.md",
     "wolfram-exploration.md",
-    "wolfram-starter.wl",
+    "clarinet-starter.wl",
     "explorer.html"
   ],
   "release_gate": {
@@ -53,8 +53,8 @@
   "engineering": {
     "wolfram": [
       {
-        "source_file": "wolfram-starter.wl",
-        "cloud_path": "wolfram-starter.wl",
+        "source_file": "clarinet-starter.wl",
+        "cloud_path": "clarinet-starter.wl",
         "cloud_url": "",
         "kind": "local-wl",
         "permission": "local"
