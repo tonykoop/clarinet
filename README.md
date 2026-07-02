@@ -40,6 +40,7 @@ tone-hole positions, and mouthpiece geometry are measured and reviewed.
 | [visual-output-register.csv](visual-output-register.csv) | Register of non-authoritative visual/reference artifacts currently in the repo | L1 starter |
 | [wolfram-exploration.md](wolfram-exploration.md) | Wolfram study plan; no runtime validation has been performed | L1 starter |
 | [clarinet-starter.wl](clarinet-starter.wl) | Source-only Wolfram starter for later measured quarter-wave checks | L1 starter |
+| [evolution/](evolution/) | Evolution-pipeline Stage 0 intake (design intent, master manifest, revision register) for `cad/clarinet.scad` | L1 starter |
 
 ## Current Fabrication Authority
 

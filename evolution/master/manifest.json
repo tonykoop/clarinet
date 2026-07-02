@@ -1,0 +1,34 @@
+{
+  "product": "clarinet",
+  "pipeline": "studiopipeline:evolution-pipeline",
+  "stage": "0-intake",
+  "master_revision": "rev-A (pre-commit intake, 2026-07-01)",
+  "generated": "2026-07-01",
+  "cad_masters": [
+    {
+      "path": "cad/clarinet.scad",
+      "format": "openscad-source",
+      "sha256": "0cb24488d520989f66ac5acca6ee1528d263dc0cebe1c966bad8f89e859ca8c7",
+      "authority": "pending_measurement",
+      "lossy": false,
+      "notes": "Starter parametric scaffold (bore/mouthpiece-socket/bell + tone-hole placeholder stubs). All dimensions are measurement-required seed values from family-spec.csv CLN-V5-STUDY-001. Not fabrication authority."
+    },
+    {
+      "path": "family-spec.csv",
+      "format": "design-table",
+      "sha256": "80482ab0c15b6b409fba6900ecbaef5bfedcc60975c3a9b77c98eaaccdf52ce3",
+      "authority": "pending_measurement",
+      "lossy": false,
+      "notes": "Acoustic-law planning row (CLN-V5-STUDY-001) for a cylindrical single-reed woodwind. No dimension_status besides starter_only; bore length and tone holes require measurement."
+    },
+    {
+      "path": "clarinet-starter.wl",
+      "format": "wolfram-source",
+      "sha256": "c5e05c236d958ea66a8d21a5ede571406cdab3bb2e502ae0e205de7b29e44600",
+      "authority": "reference_only",
+      "lossy": false,
+      "notes": "Source-only (not executed); L1/L2 analysis-support scaffold, not runtime evidence."
+    }
+  ],
+  "notes": "OpenSCAD source is the current CAD master; no STEP export yet (SolidWorks/other native export is out of scope this pass). No dimensioned design-table xlsx exists yet for this repo — family-spec.csv is the closest analog and is itself measurement_required. Gate A (Alpha workspace compile) not yet run."
+}
